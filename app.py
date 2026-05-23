@@ -14,5 +14,5 @@ def predict(transactions: Transactions):
     category = model.predict([transactions.description])[0]
 
     return {
-        "categoria": category
+        "category": category
     }
